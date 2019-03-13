@@ -45,7 +45,7 @@ public class ArrayDemo {
         for (int i : arr3) {
             System.out.println(i);
         }
-        
+
         for (int i = 0;i<arr3.length;i++){
             System.out.println(arr3[i]);
         }

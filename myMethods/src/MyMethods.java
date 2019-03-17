@@ -1,8 +1,16 @@
+import  java.util.Scanner;
 public class MyMethods {
     public static void main(String[] args) {
-        int num=getMax(1,3);
-        System.out.println(num);
 
+        Scanner sc = new Scanner(System.in);
+
+        System.out.println("请输入第一个整数");
+        int a = sc.nextInt();
+        System.out.println("请输入第2个整数");
+        int b = sc.nextInt();
+        int num=getMax(a,b);
+        System.out.print("最大数是");
+        System.out.println(num);
 
         boolean flag= isEvenNumber(6);
         System.out.println(flag);
